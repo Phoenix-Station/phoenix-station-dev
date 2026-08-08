@@ -64,27 +64,27 @@
         sprite: _Starlight/Interface/Misc/rp_icon.rsi
         state: icon
     - type: PickRandomDepartment
-
-- type: entity
-  id: RRCardBrighteyeLights
-  parent: BrighteyeCondition
-  categories: [HideSpawnMenu]
-  components:
-    - type: RailroadSpawnFlow
-      count:
-        min: 1
-        max: 2
-    - type: RailroadCard
-      title: rr-brighteye-lights
-      icon: 
-      description: rr-brighteye-lights-desc
-    - type: RailroadBreakLightTask
-      amount:
-        min: 30
-        max: 60
+# Phoenix Station Edit - Brighteyes being a neutral force rather than directly hostile
+#- type: entity
+#  id: RRCardBrighteyeLights # yes, this one has been a problem for some people (on other forks), and this would compliment a shade rework that doesn't break lights
+#  parent: BrighteyeCondition
+#  categories: [HideSpawnMenu]
+#  components:
+#    - type: RailroadSpawnFlow
+#      count:
+#        min: 1
+#        max: 2
+#    - type: RailroadCard
+#      title: rr-brighteye-lights
+#      icon: 
+#      description: rr-brighteye-lights-desc
+#    - type: RailroadBreakLightTask
+#      amount:
+#        min: 30
+#        max: 60
 
 # Hostile
-# Phoenix Station Edit - Brighteyes being a neutral force rather than directly hostile
+
 #- type: entity
 #  id: RRCardBrighteyeTeachALesson
 #  parent: BrighteyeCondition
