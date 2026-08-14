@@ -41,7 +41,7 @@
   parent: [ EncryptionKey, BaseSovietContraband ]
   id: EncryptionKeySoviet
   name: soviet encryption key
-  description: Priyom. Priyom.
+  description: Priyom. Priyom. Used by Space Soviets, or Revolutionaries. Priyom. Priyom. # Phoenix - De-brand revs
   components:
   - type: EncryptionKey
     channels:
