@@ -1,7 +1,9 @@
 - type: entity
   id: RevSupplyRift
-  name: SKB armaments rift
-  description: (!) A shady rift that coughs up Soviet stuff. This exposes them! If it's destroyed, commies won't be able to open another!
+  # Phoenix start - De-brand revs
+  name: Revolution armaments rift
+  description: (!) A shady rift that coughs up Revolutionary stuff. This exposes them! If it's destroyed, revs won't be able to open another!
+  # Phoenix end - De-brand revs
   placement:
     mode: SnapgridCenter
   components:

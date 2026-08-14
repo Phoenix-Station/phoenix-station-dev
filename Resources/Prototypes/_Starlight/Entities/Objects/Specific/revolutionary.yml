@@ -2,7 +2,7 @@
   id: USSPUplinkRadioPreset
   parent: [BaseRevUplinkRadio, StorePresetUSSP, BaseSovietContraband]
   name: Svyaz-UZL radio
-  description: Soviet comm-link node radio in broad use by USSP forces. This one has been modified for SKB agents and their assets. Unauthorized use is strongly discouraged, because we will find you.
+  description: Soviet comm-link node radio in broad use by Space Soviets. This one has been modified for Revolutionaries and their assets. Unauthorized use is strongly discouraged, because we will find you. # Phoenix - De-brand revs
   components:
   - type: Tag
     tags:
@@ -16,7 +16,7 @@
   parent: [BaseRevUplinkRadio, StorePresetUSSP, BaseSovietContraband]
   suffix: DO NOT USE LIVE
   name: Svyaz-UZL radio (Debug)
-  description: Soviet comm-link node radio in broad use by USSP forces. This one has been modified for SKB agents and their assets. Unauthorized use is strongly discouraged, because we will find you.
+  description: Soviet comm-link node radio in broad use by Space Soviets. This one has been modified for Revolutionaries and their assets. Unauthorized use is strongly discouraged, because we will find you. # Phoenix - De-brand revs
   components:
   - type: Tag
     tags:

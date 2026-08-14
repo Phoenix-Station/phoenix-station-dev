@@ -1,7 +1,7 @@
 - type: entity
   id: ActionOpenSKBUplinkImplant
   name: Open Svyaz-UZL
-  description: Opens the SKB uplink embedded under your skin
+  description: Opens the Revolutionary uplink embedded under your skin # Phoenix - De-brand revs
   components:
   - type: Action
     itemIconStyle: BigAction
