@@ -26,7 +26,7 @@ rev-break-control = {$name} has remembered their true allegiance!
 
 rev-role-greeting =
     Comrade {$name}! You are a revolutionary!
-    You are tasked with taking over the station and to promote the interests of the soviet agent who recruited you!
+    You are tasked with taking over the station and to promote the interests of the Head Revolutionary who recruited you!
     Execute, imprison or convert the brainwashed corporate command staff scum!
     Gone are the days of oppression and the unfair treatment of contractors!
     Viva La Revolution!
@@ -41,7 +41,7 @@ rev-description = The air is filled with unfair treatment.
 rev-not-enough-ready-players = Not enough players readied up for the game. There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start a glorious revolution!
 rev-no-one-ready = No players readied up! Can't start a glorious revolution!
 rev-no-heads = There were no revolutionary agents to be selected. Can't start a glorious revolution!
-
+## Phoenix start - De-brand revs
 rev-won = [color=red]The Revolutionaries survived and seized control of the station![/color]
 
 rev-lost = Command survived and killed all the Head Revolutionaries.
@@ -58,16 +58,16 @@ soviet-commissariat-revolution-announcement = Long range communications array on
 centcomm-revs-gammarift = Based on long-range sensor scans, we have detected hostile revolutionary activity on-board. Martial law is now in effect. Glory to NanoTrasen.
 
 centcomm-revs-alldead = Long-range sensor scans report all Head Revolutionaries on-board are now permanently deceased.
-
+## Phoenix end - De-brand revs
 central-command-sender = Central Command
-
+## Phoenix start - De-brand revs
 soviet-commissariat-sender = Unknown Benefactor
 
 rev-headrev-count = {$initialCount ->
     [one] There was one [color=Red]Head Revolutionary[/color]:
     *[other] There were {$initialCount} Head Revolutionaries:
 }
-
+## Phoenix end - De-brand revs
 rev-headrev-name-user = [color=#5e9cff]{$name}[/color] ([color=gray]{$username}[/color]) recruited {$count} {$count ->
     [one] contractor
     *[other] contractors
@@ -79,7 +79,7 @@ rev-headrev-name = [color=#5e9cff]{$name}[/color] recruited {$count} {$count ->
 }
 
 ## Deconverted window
-
+## Phoenix start - De-brand revs
 rev-deconverted-title = Reconverted!
 rev-deconverted-text =
     As the last Head Revolutionary has died, the glorious revolution is now over.
@@ -87,7 +87,7 @@ rev-deconverted-text =
     You are no longer a revolutionary. You now return back as NanoTrasen contractor.
 
     Any further wrongdoings are logged and punishable. So be nice.
-
+## Phoenix end - De-brand revs
 rev-deconverted-rule = Reminder: As per Rule 3 of server rules, [bold][color=#a4885c]De-converted Revolutionaries forget what happened while they were brainwashed.[/color][/bold]
 
 rev-deconverted-ruletext = Your character may learn what happened through further investigation and roleplay, but should not be able to remember being a revolutionary nor any actions they commited on behalf of the revolution.
